@@ -35,6 +35,7 @@ object Build : BuildType({
     name = "Build"
 
     artifactRules = "target/*.jar => jars"
+    publishArtifacts = PublishMode.SUCCESSFUL
 
     vcs {
         root(DslContext.settingsRoot)
