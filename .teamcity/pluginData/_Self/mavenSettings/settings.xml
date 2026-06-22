@@ -1,0 +1,15 @@
+<settings>
+  <servers>
+    <server>
+      <id>nexus-releases</id>
+      <username>teamcity</username>
+      <password>Q123456qwe!</password>
+    </server>
+
+    <server>
+      <id>nexus-snapshots</id>
+      <username>teamcity</username>
+      <password>Q123456qwe!</password>
+    </server>
+  </servers>
+</settings>
